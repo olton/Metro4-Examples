@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name="author" content="Sergey Pimenov">
+    <meta name="description" content="Metro 4 - The most popular HTML, CSS, and JS library in Metro style.">
+    <meta name="keywords" content="HTML, CSS, JS, Metro, CSS3, Javascript, HTML5, UI, Library, Web, Development, Framework">
+
+    <link href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css" rel="stylesheet">
+
+    <title>Table - Metro 4 :: Popular HTML, CSS and JS library</title>
+
+    <style>
+        .pagination {
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="text-center">Metro 4 Table Big Data</h1>
+    <h5 class="text-center">100K records</h5>
+    <h3 class="text-center">With sorting, filtering and pagination</h3>
+
+    <table class="table striped table-border mt-4"
+           data-role="table"
+           data-cls-component="mt-10"
+           data-rows="10"
+           data-source="./table-100k.json"
+           data-pagination="true"
+           data-show-all-pages="false"
+    ></table>
+</div>
+
+<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+<!-- ads-script -->
+
+</body>
+</html>
